@@ -9,7 +9,7 @@
 ![Firmware](https://img.shields.io/badge/firmware-Vial-2f7d62?style=flat-square)
 ![Layout](https://img.shields.io/badge/layout-QWERTZ%20(DE)-e8b04b?style=flat-square)
 ![Keycaps](https://img.shields.io/badge/keycaps-Wakaba%20Shinch%C5%AB-2f7d62?style=flat-square)
-![Window manager](https://img.shields.io/badge/WM-komorebi-e8b04b?style=flat-square)
+[![Window manager](https://img.shields.io/badge/WM-komorebi-e8b04b?style=flat-square)](https://github.com/LGUG2Z/komorebi)
 ![Config](https://img.shields.io/badge/current-v7-2f7d62?style=flat-square)
 
 </div>
@@ -18,7 +18,7 @@
 
 ## The short version
 
-I started with a stock **Cornix**, a compact, fully wireless split keyboard with two rotary encoders. Over several iterations I gave it a new face (the *Wakaba Shinchū* keycap set), taught it German (QWERTZ, umlauts, symbols) and finally turned both encoders into window-management tools for **komorebi**.
+I started with a stock **Cornix**, a compact, fully wireless split keyboard with two rotary encoders. Over several iterations I gave it a new face (the *Wakaba Shinchū* keycap set), taught it German (QWERTZ, umlauts, symbols) and finally turned both encoders into window-management tools for **[komorebi](https://github.com/LGUG2Z/komorebi)**.
 
 This repo is the whole journey: the keycap design, every config version I kept, and the reasoning behind each step.
 
@@ -190,7 +190,7 @@ Older versions are kept on purpose: each one is a working fallback.
 
 **Assumptions**
 - The OS keyboard layout is **German (QWERTZ)**.
-- The komorebi bindings below are in your `whkdrc`:
+- The [komorebi](https://github.com/LGUG2Z/komorebi) bindings below are in your `whkdrc`:
 
 ```
 alt + h / l               : komorebic focus left / right
